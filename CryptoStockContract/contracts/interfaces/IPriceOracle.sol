@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 // 预言机类型枚举
-enum OracleType { PYTH, REDSTONE }
+enum OracleType { PYTH, REDSTONE, CHAINLINK }
 
 /**
  * @dev 操作参数结构体 - 通用参数容器
