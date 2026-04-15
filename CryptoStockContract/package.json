@@ -21,6 +21,7 @@
     "deploy:pancake-adapter:sepolia": "hardhat run scripts/deploy-pancake-adapter-only.js --network sepolia",
     "deploy:uniswapv3-adapter:sepolia": "hardhat run scripts/deploy-uniswapv3-adapter-only.js --network sepolia",
     "deploy:yearnv3-adapter:sepolia": "hardhat run scripts/deploy-yearnv3-adapter-only.js --network sepolia",
+    "deploy:erc4626-adapter:sepolia": "hardhat run scripts/deploy-erc4626-adapter-only.js --network sepolia",
     "deploy:all-adapters:sepolia": "npm run deploy:infrastructure:sepolia && npm run deploy:aave-adapter:sepolia && npm run deploy:compound-adapter:sepolia && npm run deploy:curve-adapter:sepolia && npm run deploy:pancake-adapter:sepolia && npm run deploy:uniswapv3-adapter:sepolia && npm run deploy:yearnv3-adapter:sepolia",
     "deploy:redstone:sepolia": "hardhat run scripts/deploy-redstone-oracle.js --network sepolia",
     "deploy:mock-redstone:sepolia": "hardhat run scripts/deploy-mock-redstone.js --network sepolia",
